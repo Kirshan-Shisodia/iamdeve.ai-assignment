@@ -1,0 +1,81 @@
+/* Add some basic styles to the supplier container */
+#supplier-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    /* gap: 20px; */
+}
+  
+  /* Add some basic styles to the supplier cards */
+.supplier-card {
+    background-color: #f4f4f4;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    padding: 20px;
+    width: 30%;
+}
+  
+  /* Add some basic styles to the supplier information */
+.supplier-card h2 {
+    margin-top: 0;
+}
+  
+.supplier-card p {
+    margin-bottom: 10px;
+}
+  
+    /* Make the Load More button more prominent */
+button {
+    background-color: #007bff;
+    border: none;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 50px auto;
+    display: block;
+    transition: background-color 0.3s ease;
+}
+      
+button:hover {
+    background-color: #0069d9;
+}
+
+h1 {
+    text-align: center;
+}
+
+#filters-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+  }
+  
+  #filters-container label {
+    font-weight: bold;
+    margin-right: 10px;
+  }
+  
+  #filters-container select {
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  #filters-container select:focus {
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.3);
+  }
+  
+  #filters-container select option {
+    font-size: 16px;
+  }
