@@ -84,7 +84,7 @@ paginationButton.addEventListener("click", () => {
   const category = document.getElementById("category").value;
   const state = document.getElementById("state").value;
   const channel = document.getElementById("channel").value;
-  displaySuppliers(category, state, channel);
+  displaySuppliers(category, channel, state);
 });
 
 // Append the pagination button to the body
